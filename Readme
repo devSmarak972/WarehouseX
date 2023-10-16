@@ -3,3 +3,10 @@ Setup Virtualenv and install Django
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
+
+The app contains a comprehensive Warehosue Managemnt system with features for tracking order from warehouses located in various diferent places. It keeps track of the number of items received, number of items purchased, dispatched and sold. It also gives analytics to analyse the functioning of the ware house syste,. There is a clean ui to monitor the empty sections available within the warehouse system.
+There is also a facility to order new products and they get added to the inventory
+The inventory automatically sorts the items and calculate statistics of the number of each item available and the cateogory of items available
+The entire system is equipped with graphical illustrations for easier user interface
+There is also a push notification system that can be equipped with firebase for live notification
+The database used is sqlite and the frontend has been primarily developed in bootstrap
