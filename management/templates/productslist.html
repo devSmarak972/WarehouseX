@@ -1,0 +1,193 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="content-wrapper" style="min-height: 652px;">
+	  <div class="container-full">
+		<!-- Content Header (Page header) -->
+		<div class="content-header">
+			<div class="d-flex align-items-center">
+				<div class="me-auto">
+					<h4 class="page-title">Cart</h4>
+
+				</div>
+				
+			</div>
+		</div>
+
+		<!-- Main content -->
+		<section class="content">
+
+		  <div class="row">
+			  <div class="col-12 col-lg-8">
+				<div class="box">
+				  <div class="box-header bg-primary">
+					<h4 class="box-title">YOUR CART (6 ITEMS)</h4>
+				  </div>
+
+				  <div class="box-body">
+					<div class="table-responsive">
+						<table class="table hpoverview">
+							<thead>
+								<tr>
+									<th>Image</th>
+									<th>Product info</th>
+									<th>Price</th>
+									<th>Quantity</th>
+									<th style="text-align:center">Total</th>
+									<th style="text-align:center">Action</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><img src="{% static 'images/product/hp1.jpg' %}" alt="" width="80"></td>
+									<td>
+										<h5>HP Laptops</h5>
+										<p>Premium quality laptops that lasts forever</p>
+									</td>
+									<td>$270</td>
+									<td width="70">
+										<input type="number" class="form-control" placeholder="1" min="0" max="5">
+									</td>
+									<td width="100" align="center" class="fw-900">$270</td>
+									<td align="center"><a href="javascript:void(0)" class="btn btn-circle btn-danger btn-xs" title="" data-bs-toggle="tooltip" data-bs-original-title="Delete"><i class="fas fa-trash"></i></a></td>
+								</tr>
+								<tr>
+									<td><img src="{% static 'images/product/hp2.jpg' %}" alt="" width="80"></td>
+									<td>
+										<h5>Mio Amore Pancakes</h5>
+										<p>Food items to represent product</p>
+									</td>
+									<td>$270</td>
+									<td>
+										<input type="number" class="form-control" placeholder="1" min="0" max="5">
+									</td>
+									<td align="center" class="fw-900">$270</td>
+									<td align="center"><a href="javascript:void(0)" class="btn btn-circle btn-danger btn-xs" title="" data-bs-toggle="tooltip" data-bs-original-title="Delete"><i class="fas fa-trash"></i></a></td>
+								</tr>
+								<tr>
+									<td><img src="{% static 'images/product/hp3.jpg' %}" alt="" width="80"></td>
+									<td>
+										<h5>Water Balloon</h5>
+										<p>Playing toy for kids</p>
+									</td>
+									<td>$270</td>
+									<td>
+										<input type="number" class="form-control" placeholder="1" min="0" max="5">
+									</td>
+									<td align="center" class="fw-900">$270</td>
+									<td align="center"><a href="javascript:void(0)" class="btn btn-circle btn-danger btn-xs" title="" data-bs-toggle="tooltip" data-bs-original-title="Delete"><i class="fas fa-trash"></i></a></td>
+								</tr>
+								<tr>
+									<td><img src="{% static 'images/product/hp4.jpg' %}" alt="" width="80"></td>
+									<td>
+										<h5>Item</h5>
+										<p>Just another item</p>
+									</td>
+									<td>$270</td>
+									<td>
+										<input type="number" class="form-control" placeholder="1" min="0" max="5">
+									</td>
+									<td align="center" class="fw-900">$270</td>
+									<td align="center"><a href="javascript:void(0)" class="btn btn-circle btn-danger btn-xs" title="" data-bs-toggle="tooltip" data-bs-original-title="Delete"><i class="fas fa-trash"></i></a></td>
+								</tr>
+								<tr>
+									<td><img src="{% static 'images/product/hp5.jpg' %}" alt="" width="80"></td>
+									<td>
+										<h5>Fighter jets</h5>
+										<p>Fighter jet planes equipped with advanced machinery</p>
+									</td>
+									<td>$270</td>
+									<td>
+										<input type="number" class="form-control" placeholder="1" min="0" max="5">
+									</td>
+									<td align="center" class="fw-900">$270</td>
+									<td align="center"><a href="javascript:void(0)" class="btn btn-circle btn-danger btn-xs" title="" data-bs-toggle="tooltip" data-bs-original-title="Delete"><i class="fas fa-trash"></i></a></td>
+								</tr>
+								<tr>
+									<td><img src="{% static 'images/product/hp6.jpg' %}" alt="" width="80"></td>
+									<td>
+										<h5>Machine Guns</h5>
+										<p>An aassortment of Machine Guns</p>
+									</td>
+									<td>$270</td>
+									<td>
+										<input type="number" class="form-control" placeholder="1" min="0" max="5">
+									</td>
+									<td align="center" class="fw-900">$270</td>
+									<td align="center"><a href="javascript:void(0)" class="btn btn-circle btn-danger btn-xs" title="" data-bs-toggle="tooltip" data-bs-original-title="Delete"><i class="fas fa-trash"></i></a></td>
+								</tr>							
+							</tbody>
+						</table>
+						<button class="btn btn-success pull-right"><i class="fa fa fa-shopping-cart"></i> Checkout</button>
+					</div>
+
+				  </div>
+				</div>
+			  </div>
+
+			  <div class="col-12 col-lg-4">
+				<div class="box">
+				  <div class="box-header bg-success">
+					<h4 class="box-title">Instructions</h4>
+				  </div>
+				  <div class="box-body">
+					<p>If you have any special instructions, mention here</p>
+					<form class="form-inline mt-20">
+						<div class="input-group w-p100">
+							<input type="text" class="form-control">
+							<button type="button" class="btn btn-danger">Apply</button>
+							<!-- /btn-group -->
+						</div>
+					</form>
+
+				  </div>
+				</div>			 
+
+				<div class="box">
+				  <div class="box-header bg-info">
+					<h4 class="box-title">Cart Summary</h4>
+				  </div>
+
+				  <div class="box-body">
+					<div class="table-responsive">
+						<table class="table simple mb-0">
+							<tbody>
+								<tr>
+									<td>Total</td>
+									<td class="text-end fw-700">$3240</td>
+								</tr>
+
+								<tr>
+									<td>Delivery Charges</td>
+									<td class="text-end fw-700">$50</td>
+								</tr>
+								<tr>
+									<td>Tax</td>
+									<td class="text-end fw-700">$18</td>
+								</tr>
+								<tr>
+									<th class="bt-1">Payable Amount</th>
+									<th class="bt-1 text-end fw-900 fs-18">$1688</th>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				  </div>
+				  <div class="box-footer">	
+					<button class="btn btn-danger">Cancel Order</button>
+					<button class="btn btn-primary pull-right">Place Order</button>
+				  </div>
+				</div> 
+
+
+
+			  </div>
+
+		  </div>
+
+		</section>
+		<!-- /.content -->
+	  </div>
+  </div>
+{% endblock %}

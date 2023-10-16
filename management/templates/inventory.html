@@ -1,0 +1,254 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="content-wrapper" style="min-height: 565px;">
+	  <div class="container-full">
+		<!-- Content Header (Page header) -->
+		<div class="content-header">
+			<div class="d-flex align-items-center">
+				<div class="me-auto">
+					<h4 class="page-title">Warehouse</h4>
+					<div class="d-inline-block align-items-center">
+						<nav>
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item" aria-current="page">Kharagpur</li>
+								<li class="breadcrumb-item active" aria-current="page">Jhapatapur</li>
+							</ol>
+						</nav>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+		<!-- Main content -->
+		<section class="content">
+
+		  <div class="row">
+<div class="row">
+			  <div class="col-lg-4 col-12">
+				  <div class="row">
+				  	  <div class="col-6">
+						  <a class="box box-link-shadow text-center" href="javascript:void(0)">
+							<div class="box-body">
+								<div class="fs-24">+264</div>
+								<span>Total Products</span>
+							</div>
+							<div class="box-body bg-info btsr-0 bter-0">
+								<p>
+									<span class="fas fa-archive"></span>
+								</p>
+							</div>
+						  </a>
+						  <a class="box box-link-shadow text-center" href="javascript:void(0)">
+							<div class="box-body">
+								<div class="fs-24">110</div>
+								<span>Paid</span>
+							</div>
+							<div class="box-body bg-success btsr-0 bter-0">
+								<p>
+									<span class="fas fa-money"></span>
+								</p>
+							</div>
+						  </a>
+					  </div>
+					  <div class="col-6">
+					  	  <a class="box box-link-shadow text-center" href="javascript:void(0)">
+							<div class="box-body">
+								<div class="fs-24">175</div>
+								<span>Shipped</span>
+							</div>
+							<div class="box-body bg-warning btsr-0 bter-0">
+								<p>
+									<span class="fas fa-truck"></span>
+								</p>
+							</div>
+						  </a>
+						  <a class="box box-link-shadow text-center" href="javascript:void(0)">
+							<div class="box-body">
+								<div class="fs-24">59</div>
+								<span>Pending</span>
+							</div>
+							<div class="box-body bg-danger btsr-0 bter-0">
+								<p>
+									<span class="fas fa-shopping-cart"></span>
+								</p>
+							</div>
+						  </a>
+					  </div>
+				  </div>
+			  </div>
+			  <div class="col-lg-4 col-12">
+				  <div class="box">
+					  <div class="box-header with-border">
+						<h5 class="box-title">Products per category</h5>
+						<div class="box-tools pull-right">
+							<ul class="card-controls">
+							  <li class="dropdown">
+								<a data-bs-toggle="dropdown" href="#"><i class="fas fa-list-alt"></i></a>
+								<div class="dropdown-menu dropdown-menu-end">
+								  <a class="dropdown-item active" href="#">Today</a>
+								  <a class="dropdown-item" href="#">Yesterday</a>
+								  <a class="dropdown-item" href="#">Last week</a>
+								  <a class="dropdown-item" href="#">Last month</a>
+								</div>
+							  </li>
+							  <li><a href="" class="link card-btn-reload" data-bs-toggle="tooltip" title="" data-bs-original-title="Refresh"><i class="fa fa-circle-thin"></i></a></li>
+							</ul>
+						</div>
+					  </div>
+
+					  <div class="box-body">
+						<div class="text-center pb-25">                  
+						  <div class="donut" data-peity="{ &quot;fill&quot;: [&quot;#fc4b6c&quot;, &quot;#ffb22b&quot;, &quot;#398bf7&quot;], &quot;radius&quot;: 86, &quot;innerRadius&quot;: 50  }" style="display: none;">9,6,5</div><svg class="peity" height="172" width="172"><path d="M 86 0 A 86 86 0 0 1 112.57546151624548 167.7908604013832 L 101.45084971874738 133.55282581475768 A 50 50 0 0 0 86 36" fill="#fc4b6c"></path><path d="M 112.57546151624548 167.7908604013832 A 86 86 0 0 1 0 86.00000000000001 L 36 86 A 50 50 0 0 0 101.45084971874738 133.55282581475768" fill="#ffb22b"></path><path d="M 0 86.00000000000001 A 86 86 0 0 1 85.99999999999999 0 L 85.99999999999999 36 A 50 50 0 0 0 36 86" fill="#398bf7"></path></svg>
+						</div>
+
+						<ul class="list-inline">
+						  <li class="flexbox mb-5">
+							<div>
+							  <span class="badge badge-dot badge-lg me-1" style="background-color: #fc4b6c"></span>
+							  <span>Non-perishable stock</span>
+							</div>
+							<div>8952</div>
+						  </li>
+
+						  <li class="flexbox mb-5">
+							<div>
+							  <span class="badge badge-dot badge-lg me-1" style="background-color: #ffb22b"></span>
+							  <span>Perishable stock</span>
+							</div>
+							<div>7458</div>
+						  </li>
+
+						  <li class="flexbox">
+							<div>
+							  <span class="badge badge-dot badge-lg me-1" style="background-color: #398bf7"></span>
+							  <span>Stock with expiration date</span>
+							</div>
+							<div>3254</div>
+						  </li>
+						</ul>
+					  </div>
+					</div>
+			  </div>
+			  <div class="col-lg-4 col-12">
+				  <div class="box">
+					  <div class="box-header with-border">
+						<h5 class="box-title">Products per type</h5>
+
+						<div class="box-tools pull-right">
+							<ul class="card-controls">
+							  <li class="dropdown">
+								<a data-bs-toggle="dropdown" href="#"><i class="fas fa-archive"></i></a>
+								<div class="dropdown-menu dropdown-menu-end">
+								  <a class="dropdown-item active" href="#">Today</a>
+								  <a class="dropdown-item" href="#">Yesterday</a>
+								  <a class="dropdown-item" href="#">Last week</a>
+								  <a class="dropdown-item" href="#">Last month</a>
+								</div>
+							  </li>
+							  <li><a href="" class="link card-btn-reload" data-bs-toggle="tooltip" title="" data-bs-original-title="Refresh"><i class="fa fa-circle-thin"></i></a></li>
+							</ul>
+						</div>
+					  </div>
+
+					  <div class="box-body">
+						<div class="flexbox mt-10">
+							<div class="bar" data-peity="{ &quot;fill&quot;: [&quot;#666EE8&quot;, &quot;#1E9FF2&quot;, &quot;#28D094&quot;, &quot;#FF4961&quot;, &quot;#FF9149&quot;], &quot;height&quot;: 268, &quot;width&quot;: 120, &quot;padding&quot;:0.2 }" style="display: none;">952,558,1254,427,784</div><svg class="peity" height="268" width="120"><rect fill="#666EE8" x="4.8" y="64.54226475279106" width="14.399999999999999" height="203.45773524720894"></rect><rect fill="#1E9FF2" x="28.8" y="148.7464114832536" width="14.400000000000002" height="119.25358851674639"></rect><rect fill="#28D094" x="52.8" y="0" width="14.400000000000006" height="268"></rect><rect fill="#FF4961" x="76.8" y="176.7432216905901" width="14.400000000000006" height="91.2567783094099"></rect><rect fill="#FF9149" x="100.8" y="100.44657097288678" width="14.400000000000006" height="167.55342902711322"></rect></svg>
+						  <ul class="list-inline align-self-end text-muted text-end mb-0">
+							<li>Technical Goods <span class="badge badge-primary ms-2">154</span></li>
+							<li>Food Items <span class="badge badge-info ms-2">154</span></li>
+							<li>Machinery <span class="badge badge-success ms-2">254</span></li>
+							<li>Clothes <span class="badge badge-danger ms-2">854</span></li>
+							<li>Furnitures <span class="badge badge-warning ms-2">215</span></li>
+						  </ul>
+						</div>
+
+					  </div>
+				  </div>
+			  </div>
+
+			</div>
+
+			<div class="col-12">
+			  <div class="box">
+				<div class="box-header with-border">
+				  <h4 class="box-title">Inventory</h4>
+				  <div class="box-controls pull-right">
+					<div class="lookup lookup-circle lookup-right">
+					  <input type="text" name="s">
+					</div>
+				  </div>
+				</div>
+				<!-- /.box-header -->
+				<div class="box-body no-padding">
+					<div class="table-responsive">
+                        <div class="p-4 dt-buttons btn-group">          <button class="btn btn-secondary buttons-copy buttons-html5" tabindex="0" aria-controls="example"><span>Copy</span></button> <button class="btn btn-secondary buttons-csv buttons-html5" tabindex="0" aria-controls="example"><span>CSV</span></button> <button class="btn btn-secondary buttons-excel buttons-html5" tabindex="0" aria-controls="example"><span>Excel</span></button> <button class="btn btn-secondary buttons-pdf buttons-html5" tabindex="0" aria-controls="example"><span>PDF</span></button> <button class="btn btn-secondary buttons-print" tabindex="0" aria-controls="example"><span>Print</span></button> </div>
+					  <table class="table table-hover">
+						<tbody><tr>
+						  <th>Invoice</th>
+						  <th>Product</th>
+						  <th>Date</th>
+						  <th>Amount</th>
+						  <th>Status</th>
+						  <th>From</th>
+						</tr>
+						<tr>
+						  <td><a href="javascript:void(0)">Order #123456</a></td>
+						  <td>HP Laptops</td>
+						  <td><span class="text-muted"><i class="fa fa-clock-o"></i> Oct 16, 2017</span> </td>
+						  <td>$158.00</td>
+						  <td><span class="badge badge-pill badge-danger">Pending</span></td>
+						  <td>Ahmedabad</td>
+						</tr>
+						<tr>
+						  <td><a href="javascript:void(0)">Order #458789</a></td>
+						  <td>Mio Amore Black Forest</td>
+						  <td><span class="text-muted"><i class="fa fa-clock-o"></i> Oct 16, 2017</span> </td>
+						  <td>$55.00</td>
+						  <td><span class="badge badge-pill badge-warning">Shipped</span></td>
+						  <td>Lucknow</td>
+						</tr>
+						<tr>
+						  <td><a href="javascript:void(0)">Order #84532</a></td>
+						  <td>Tanks</td>
+						  <td><span class="text-muted"><i class="fa fa-clock-o"></i> Oct 16, 2017</span> </td>
+						  <td>$845.00</td>
+						  <td><span class="badge badge-pill badge-danger">Prossing</span></td>
+						  <td>Kolkata</td>
+						</tr>
+						<tr>
+						  <td><a href="javascript:void(0)">Order #48956</a></td>
+						  <td>Water Balls</td>
+						  <td><span class="text-muted"><i class="fa fa-clock-o"></i> Oct 16, 2017</span> </td>
+						  <td>$145.00</td>
+						  <td><span class="badge badge-pill badge-success">Paid</span></td>
+						  <td>Ahmedabad</td>
+						</tr>
+						<tr>
+						  <td><a href="javascript:void(0)">Order #92154</a></td>
+						  <td>Lorem Ipsum</td>
+						  <td><span class="text-muted"><i class="fa fa-clock-o"></i> Oct 16, 2017</span> </td>
+						  <td>$450.00</td>
+						  <td><span class="badge badge-pill badge-warning">Shipped</span></td>
+						  <td>Kolkata</td>
+						</tr>
+					  </tbody></table>
+					</div>
+				</div>
+				<!-- /.box-body -->
+			  </div>
+			  <!-- /.box -->
+			</div>
+
+		  <!-- /.row -->
+
+		</section>
+		<!-- /.content -->
+	  </div>
+  </div>
+  <script src="{% static 'js/data-table.js' %}"></script>
+
+{% endblock %}
