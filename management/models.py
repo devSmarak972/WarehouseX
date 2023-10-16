@@ -23,7 +23,7 @@ class InvoiceItem(models.Model):
     name = models.CharField(max_length=255)
     product_name=models.CharField(max_length=255)
     product_qty=models.IntegerField(default=1)
-    invoice=models.ForeignKey("Invoice",null=True,blank=True)
+    invoice=models.ForeignKey("Invoice",null=True,blank=True,on_delete=models.CASCADE)
     def __str__(self):
       return self.name
 class Invoice(models.Model):
@@ -32,6 +32,5 @@ class Invoice(models.Model):
     issuedaddr=models.CharField(max_length=255)
     quantity = models.IntegerField(default=0, null=True, blank=True)
     issue_date = models.DateField(null=True,blank=True)
-    invoiceitem=models.ManyToManyField("Product",null=True,blank=True)
     def __str__(self):
       return self.name

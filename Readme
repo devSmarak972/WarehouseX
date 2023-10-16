@@ -10,3 +10,5 @@ The inventory automatically sorts the items and calculate statistics of the numb
 The entire system is equipped with graphical illustrations for easier user interface
 There is also a push notification system that can be equipped with firebase for live notification
 The database used is sqlite and the frontend has been primarily developed in bootstrap
+
+Deployed link: warehousex.pythonanywhere.com
