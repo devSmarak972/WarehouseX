@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -25,7 +26,7 @@ SECRET_KEY = 'django-insecure-o_n)8^nppr7xip*lhf=%s1&bg#m_nro%yc=jg@6^fxw&9=l=ay
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["warehousex.pythonanywhere.com"]
 
 
 # Application definition
@@ -117,7 +118,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
-import os
 STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 
